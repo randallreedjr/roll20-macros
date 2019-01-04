@@ -1,3 +1,3 @@
 /w {@selected|character_name} DC is [[10]]  or half the damage taken
 /em tries to keep concentrating on their spell
-&{template:5eDefault} {{character_name=@{selected|character_name}}} {{title=CON saving throw}} {{subheader=@{selected|character_name}}} {{subheaderright=Concentration}} {{save=1}} {{simple=1}} {{rollname=CON save}} {{roll1=[[ 1d20 + [[@{selected|constitution_save_mod}]] + [[@{selected|global_saving_bonus}]] ]]}} @{selected|ro_consave} @{selected|classactionconstitutionsave}
+&{template:5eDefault} {{character_name=@{selected|character_name}}} {{title=CON saving throw}} {{subheader=@{selected|character_name}}} {{subheaderright=Concentration}} {{subheader2=War Caster (advantage)}} {{save=1}} {{simple=1}} {{rollname=CON save}} {{roll1=[[ {2d20}kh1 + [[@{selected|constitution_save_mod}]] + [[@{selected|global_saving_bonus}]] ]]}} @{selected|ro_consave} @{selected|classactionconstitutionsave}
